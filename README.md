@@ -22,6 +22,11 @@ We also ran into an error when creating the contacts dataframe. No matter what w
 
 ![contacts_excel](https://github.com/leeangel0428/Crowdfunding_ETL/assets/137225965/6e52f53c-5d6d-41f9-8b25-5b33f9a43223)
 
+Part 4 ERD:
+
+![miniproject_erd](https://github.com/leeangel0428/Crowdfunding_ETL/assets/137225965/dc89b29d-3001-4585-bb8b-4dc8a2313491)
+
+
 # Resources and citations (in usage order): 
 Used to split columns:
 
