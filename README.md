@@ -8,9 +8,19 @@ There are four major parts of the assignment: 1) Create the Category and Subcate
 
 In part 2, we were struggling to change the datatype of "launched date" and "end date." Fortunately, our group members found two effective ways which is why there is an additional "#Alternate" cell. See images:
 
+![dtype1](https://github.com/leeangel0428/Crowdfunding_ETL/assets/137225965/07592ec6-60d5-470c-81b0-e799df22da96)
+
+![dtype 2](https://github.com/leeangel0428/Crowdfunding_ETL/assets/137225965/2c2e7b3f-c4d4-4958-b473-d059d2172c6c)
+
 In part 3, we were given two options: 1) Use Python dictionary methods or 2) Use regular expressions. We chose option 1 which is why the option 2 portion of our code is left blank.
 
 We also ran into an error when creating the contacts dataframe. No matter what we did, we could not get it to run until we looked at the excel file and saw that the header should have been 3 and not 2 as the provided code suggested. See images:
+
+![code_error1 1](https://github.com/leeangel0428/Crowdfunding_ETL/assets/137225965/3f131c1c-a3bd-4bc7-9895-3399344b8da8)
+
+![code_error1 2](https://github.com/leeangel0428/Crowdfunding_ETL/assets/137225965/1e3d7782-7c45-45f4-95d4-3617ad903148)
+
+![contacts_excel](https://github.com/leeangel0428/Crowdfunding_ETL/assets/137225965/6e52f53c-5d6d-41f9-8b25-5b33f9a43223)
 
 # Resources and citations (in usage order): 
 Used to split columns:
