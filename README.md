@@ -29,7 +29,7 @@ Pandas. (2023). Pandas.Series.str.split. Pandas Documentation. Retrieved from:ht
 
 Used for creating dataframes:
 
-StackOverflow. (.d.). Convert Pandas Column to DateTime. Retrieved from:https://stackoverflow.com/questions/26763344/convert-pandas-column-to-datetime
+StackOverflow. (n.d.). Convert Pandas Column to DateTime. Retrieved from:https://stackoverflow.com/questions/26763344/convert-pandas-column-to-datetime
 
 Used for list comprehension:
 
