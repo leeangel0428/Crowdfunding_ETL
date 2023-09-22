@@ -1,5 +1,5 @@
 # Introduction:
-Hello viewer and welcome to Group 5's submission for Project 2. Please note that despite the description referring to this as a partner activity, our group consists of 4 members, Angel Lee, Alexandra Calametti, Brian Guenther, and Matthew Bond. In this repository, you will find the Starter_Code folder which contains our completed code "ETL_Mini_Project_Group_5" and a resources folder. The resources folder was provided to us with only two excel files: "contacts" and "crowdfunding". Our code added the additional csv files: "campaign," "category," "contacts," and "subcategory."
+Hello viewer and welcome to Group 5's submission for Project 2. Please note that despite the description referring to this as a partner activity, our group consists of 4 members, Angel Lee, Alexandra Calametti, Brian Guenther, and Matthew Bond. In this repository, you will find the Starter_Code folder which contains our completed code "ETL_Mini_Project_Group_5", the ERD sql file containing the SQL query schema, and the image of the ERD. There is also a resources folder. The resources folder was provided to us with only two excel files: "contacts" and "crowdfunding". Our code added the additional csv files: "campaign," "category," "contacts," and "subcategory."
 
 # Overview and Troubleshooting:
 Description: "For the ETL mini project, you will work with a partner to practice building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. After you transform the data, you'll create four CSV files and use the CSV file data to create an ERD and a table schema. Finally, you’ll upload the CSV file data into a Postgres database. Since this is a one-week project, make sure that you have done at least half of your project before the third day of class to stay on track. Although you and your partner will divide the work, it’s essential to collaborate and communicate while working on different parts of the project. Be sure to check in with your partner regularly and offer support."
@@ -22,10 +22,21 @@ We also ran into an error when creating the contacts dataframe. No matter what w
 
 ![contacts_excel](https://github.com/leeangel0428/Crowdfunding_ETL/assets/137225965/6e52f53c-5d6d-41f9-8b25-5b33f9a43223)
 
-Part 4 ERD:
+Part 4 Images:
 
-![miniproject_erd](https://github.com/leeangel0428/Crowdfunding_ETL/assets/137225965/dc89b29d-3001-4585-bb8b-4dc8a2313491)
+ERD:
 
+![miniproject_erd](https://github.com/leeangel0428/Crowdfunding_ETL/assets/137225965/5394be7f-1f69-4b02-977b-35727bb242ff)
+
+Checking that all of our SQL tables are correct:
+
+![1](https://github.com/leeangel0428/Crowdfunding_ETL/assets/137225965/cae36faf-ddcc-4979-a7ee-697a15256834)
+
+![2](https://github.com/leeangel0428/Crowdfunding_ETL/assets/137225965/a4549d90-9763-41a4-ad06-54a1d7e51d17)
+
+![3](https://github.com/leeangel0428/Crowdfunding_ETL/assets/137225965/2d70162d-ca6b-4e37-afdb-d4ecd19b2e54)
+
+![4](https://github.com/leeangel0428/Crowdfunding_ETL/assets/137225965/a81789c2-a695-4fc2-9285-d87f7e93dac5)
 
 # Resources and citations (in usage order): 
 Used to split columns:
