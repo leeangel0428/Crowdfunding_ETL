@@ -1,6 +1,24 @@
 ﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
+-- This is the order we created the schema/read them in
+CREATE TABLE "Contacts" (
+    "contact_id" INT   NOT NULL,
+    "first_name" VARCHAR(255)   NOT NULL,
+    "last_name" VARCHAR(255)   NOT NULL,
+    "email" VARCHAR(255)   NOT NULL,
+    CONSTRAINT "pk_Contacts" PRIMARY KEY (
+        "contact_id"
+     )
+);
+
+CREATE TABLE "Category" (
+    "category_id" VARCHAR(20)   NOT NULL,
+    "category" VARCHAR(50)   NOT NULL,
+    CONSTRAINT "pk_Category" PRIMARY KEY (
+        "category_id"
+     )
+);
 
 CREATE TABLE "Subcategory" (
     "subcategory_id" VARCHAR(50)   NOT NULL,
@@ -34,23 +52,9 @@ CREATE TABLE "Campaign" (
      )
 );
 
-CREATE TABLE "Contacts" (
-    "contact_id" INT   NOT NULL,
-    "first_name" VARCHAR(255)   NOT NULL,
-    "last_name" VARCHAR(255)   NOT NULL,
-    "email" VARCHAR(255)   NOT NULL,
-    CONSTRAINT "pk_Contacts" PRIMARY KEY (
-        "contact_id"
-     )
-);
+--Imported the tables in that same order
 
-CREATE TABLE "Category" (
-    "category_id" VARCHAR(20)   NOT NULL,
-    "category" VARCHAR(50)   NOT NULL,
-    CONSTRAINT "pk_Category" PRIMARY KEY (
-        "category_id"
-     )
-);
+--Altered the tables in this order
 
 ALTER TABLE "Campaign" ADD CONSTRAINT "fk_Campaign_contact_id" FOREIGN KEY("contact_id")
 REFERENCES "Contacts" ("contact_id");
@@ -61,3 +65,8 @@ REFERENCES "Category" ("category_id");
 ALTER TABLE "Campaign" ADD CONSTRAINT "fk_Campaign_subcategory_ids" FOREIGN KEY("subcategory_ids")
 REFERENCES "Subcategory" ("subcategory_id");
 
+--Code to make sure everything is in correctly--order does not matter
+SELECT * FROM "Campaign" LIMIT 5;
+SELECT * FROM "Category" LIMIT 5;
+SELECT * FROM "Subcategory" LIMIT 5;
+SELECT * FROM "Contacts" LIMIT 5;
