@@ -52,3 +52,9 @@ Used for list comprehension:
 TutorialsPoiunt. (n.d.). How to get a list of all the keys from a Python dictionary? TutorialsPoint. Retrieved from: https://www.tutorialspoint.com/How-to-get-a-list-of-all-the-keys-from-a-Python-dictionary
 
 Data to Fish. (2022, February 25). How to Extract Dictionary Valuies as a list. Retrieved from: https://datatofish.com/dictionary-values-as-list/
+
+### Grade:
+![Screenshot 2023-10-15 220852](https://github.com/leeangel0428/Excel_analysis/assets/137225965/730e52af-04d5-4d6f-88bd-9fa64d786357)
+
+![Screenshot 2023-10-15 220857](https://github.com/leeangel0428/Excel_analysis/assets/137225965/a4e404ea-88ab-4cce-ab6f-8c96838fd00f)
+
